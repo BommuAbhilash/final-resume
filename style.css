@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 body {
@@ -147,7 +148,7 @@ body {
 .container .right-side {
     position: relative;
     background: #fff;
-    padding: 40px;
+    padding: 30px;
 }
 
 .about {
@@ -270,4 +271,17 @@ p {
 #education-items {
     display: flex;
     flex-direction: column;
+}
+.project-head{
+    color: #848c90;
+    font-weight: 600;
+}
+#edubox .box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 2rem;
+    gap: 1.2rem;
+}
+.perc{
+    font-weight: 900;
 }
