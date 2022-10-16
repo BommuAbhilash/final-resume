@@ -81,9 +81,10 @@ body {
 
 .title {
     color: #fff;
+    font-size: 1.3rem;
     text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
     margin-bottom: 20px;
 }
 
@@ -94,6 +95,7 @@ body {
 .contactInfo ul li {
     position: relative;
     list-style: none;
+
     margin: 10px 0;
     cursor: pointer;
 }
@@ -140,10 +142,6 @@ body {
     height: 100%;
     background: #03a9f4;
 }
-
- #check{
-    color: red;
- }
 
 
 
